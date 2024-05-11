@@ -57,8 +57,8 @@ ui <- fluidPage(
                             bsButton("select_all_button", "Select All", style = "primary"),
                             checkboxGroupInput("columns", "Select Columns to Transform:",
                                                choices = NULL),
-                            textInput("name_column", "Name column:"),
-                            textInput("value_column", "Value column:"),
+                            textInput("name_column", "Name column:", value = "Name"),
+                            textInput("value_column", "Value column:", value = "Value"),
                             downloadLink("downloadData", "Download", class="btn btn-warning"),
                             bsButton("return_to_original", "Return to original", style = "info"),
                             bsButton("pivot_button", "Transform to Long Format", style = "success")
@@ -132,3 +132,4 @@ ui <- fluidPage(
     )
   )
 )
+
