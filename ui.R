@@ -41,23 +41,24 @@ ui <- fluidPage(
     #select_all_button {
       float: right;
     }
+     
         "))),
   titlePanel(
     div(
       img(src = "isila-logo.jpg", height = "40px", style = "margin-right: 10px;vertical-align:sub;"),
       "csv2xAPI"
-    )
+    ),
   ),
   tabsetPanel(
     tabPanel("Import data",
              sidebarLayout(
-               sidebarPanel(width = 3,
+               sidebarPanel( 
                             fileInput("file", "Choose CSV File",
                                       accept = c(".csv",".xlsx",".xls",".tsv",".RDS",".sav",".psv",".feather",".parquet")),
                             bsButton("select_all_button", "Select All", style = "primary"),
                             checkboxGroupInput("columns", "Select Columns to Transform:",
                                                choices = NULL),
-                            textInput("name_column", "Name column:", value = "Name"),
+                            textInput("name_column", "Name column:", value = "Variable"),
                             textInput("value_column", "Value column:", value = "Value"),
                             downloadLink("downloadData", "Download", class="btn btn-warning"),
                             bsButton("return_to_original", "Return to original", style = "info"),
