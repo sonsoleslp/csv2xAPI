@@ -1,21 +1,30 @@
+chooseCloser <-function(mine,allcols) {
+  eqq = stringr::str_to_lower(allcols) == stringr::str_to_lower(mine)
+  if (any(eqq)){
+    allcols[which(eqq)]
+  } else {
+    "Empty"
+  }
+}
 updateAllDrops <- function(global_data, session){
-  updateSelectInput(session, 'timestamp', choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, 'actor_email', choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "actor_name", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "verb_id", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "verb_display", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "activity_name", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "activity_id", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_response", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_scaled", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_raw", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_success", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_completion", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "result_duration", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "context_id1", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "context_name1", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "context_id2", choices= c("Empty",names(global_data)), selected = "Empty")
-  updateSelectInput(session, "context_name2", choices= c("Empty",names(global_data)), selected = "Empty")
+  choices = c("Empty",names(global_data))
+  updateSelectInput(session, 'timestamp', choices= choices, selected = chooseCloser("timestamp",choices))
+  updateSelectInput(session, 'actor_email', choices= choices, selected = chooseCloser("actor.email",choices))
+  updateSelectInput(session, "actor_name", choices= choices, selected = chooseCloser("actor.name",choices))
+  updateSelectInput(session, "verb_id", choices= choices, selected = chooseCloser("verb.id",choices))
+  updateSelectInput(session, "verb_display", choices= choices, selected = chooseCloser("verb.name",choices))
+  updateSelectInput(session, "activity_name", choices= choices, selected = chooseCloser("object.name",choices))
+  updateSelectInput(session, "activity_id", choices= choices, selected = chooseCloser("object.id",choices))
+  updateSelectInput(session, "result_response", choices= choices, selected = chooseCloser("result.response",choices))
+  updateSelectInput(session, "result_scaled", choices= choices, selected = chooseCloser("result.scaled",choices))
+  updateSelectInput(session, "result_raw", choices= choices, selected = chooseCloser("result.raw",choices))
+  updateSelectInput(session, "result_success", choices= choices, selected = chooseCloser("result.success",choices))
+  updateSelectInput(session, "result_completion", choices= choices, selected = chooseCloser("result.completion",choices))
+  updateSelectInput(session, "result_duration", choices= choices, selected = chooseCloser("result.duration",choices))
+  updateSelectInput(session, "context_name1", choices= choices, selected = chooseCloser("activity.name",choices))
+  updateSelectInput(session, "context_id1", choices= choices, selected = chooseCloser("activity.id",choices))
+  updateSelectInput(session, "context_name2", choices= choices, selected = chooseCloser("context.name",choices))
+  updateSelectInput(session, "context_id2", choices= choices, selected = chooseCloser("context.id",choices))
 }
 
 ui <- fluidPage(
@@ -64,7 +73,7 @@ ui <- fluidPage(
                             bsButton("return_to_original", "Return to original", style = "info"),
                             bsButton("pivot_button", "Transform to Long Format", style = "success")
                ),
-               mainPanel(width = 9,
+               mainPanel( 
                          dataTableOutput("original_data")
                )
              )
@@ -91,14 +100,14 @@ ui <- fluidPage(
                                             selectInput(inputId = "result_scaled", label = "Scaled score", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "result_raw", label = "Raw score", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "result_success", label = "Success", choices =  list("Empty"), selected = "Empty"),
-                                            selectInput(inputId = "result_completion", label = "Complertion", choices =  list("Empty"), selected = "Empty"),
+                                            selectInput(inputId = "result_completion", label = "Completion", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "result_duration", label = "Duration", choices =  list("Empty"), selected = "Empty"),
                                             style = "info"), 
                             bsCollapsePanel("Context",  
-                                            selectInput(inputId = "context_id1", label = "Activity parent id", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "context_name1", label = "Activity parent name", choices =  list("Empty"), selected = "Empty"),
-                                            selectInput(inputId = "context_id2", label = "Context id", choices =  list("Empty"), selected = "Empty"),
+                                            selectInput(inputId = "context_id1", label = "Activity parent id", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "context_name2", label = "Context name", choices =  list("Empty"), selected = "Empty"),
+                                            selectInput(inputId = "context_id2", label = "Context id", choices =  list("Empty"), selected = "Empty"),
                                             style = "info")),
                  downloadLink("downloadDataxAPI", "Download", class="btn btn-warning"),
                  bsButton("return_to_last", "Return to previous state", style = "info"),
@@ -120,7 +129,7 @@ ui <- fluidPage(
                  textInput("lrs_endpoint", "Endpoint:"),
                  textInput("lrs_user", "Client name:"),
                  textInput("lrs_password", "Client secret:"),
-                 bsButton("lrs_send", "Send to LRS", style = "success")
+                 bsButton("lrs_send", "Send to LRS", style = "success") 
                ),
                mainPanel(
                  h4("Server response"),

@@ -1,0 +1,1061 @@
+﻿actor.name;timestamp;result.duration;verb.name;verb.id;object.name;activity.name;context.name;result.response;result.success
+Person 1;15.9.2023 18:06;PT0S;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 1;15.9.2023 18:07;PT36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;sleep.time(2);FALSE
+Person 1;15.9.2023 18:07;PT39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;sleep.time(2);FALSE
+Person 1;15.9.2023 18:07;PT52S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 1;15.9.2023 18:07;PT1M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;;FALSE
+Person 1;15.9.2023 18:08;PT1M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;timesleep.remove();FALSE
+Person 1;15.9.2023 18:08;PT1M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 1;15.9.2023 18:08;PT1M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;timesleep.remove[ ];FALSE
+Person 1;15.9.2023 18:08;PT1M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;timesleep.remove[ ];FALSE
+Person 1;15.9.2023 18:08;PT2M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;timesleep.remove[(');FALSE
+Person 1;15.9.2023 18:08;PT2M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"timesleep.remove("""")";FALSE
+Person 1;15.9.2023 18:08;PT2M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.strip();FALSE
+Person 1;15.9.2023 18:09;PT2M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.split();FALSE
+Person 1;15.9.2023 18:09;PT2M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;char.split();FALSE
+Person 1;15.9.2023 18:09;PT3M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;split();FALSE
+Person 1;15.9.2023 18:09;PT3M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"timesleep.replace("" "", """")";FALSE
+Person 1;15.9.2023 18:09;PT3M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 1;15.9.2023 18:09;PT3M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;split.str();FALSE
+Person 1;15.9.2023 18:09;PT3M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;split.char();FALSE
+Person 1;15.9.2023 18:10;PT3M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"replace("" "", """")";FALSE
+Person 1;15.9.2023 18:10;PT4M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.str();FALSE
+Person 1;15.9.2023 18:11;PT4M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"remove("" "", """")";FALSE
+Person 1;15.9.2023 18:11;PT4M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"remove("" "")";FALSE
+Person 1;15.9.2023 18:11;PT4M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;variable.str();FALSE
+Person 1;15.9.2023 18:11;PT4M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.char();FALSE
+Person 1;15.9.2023 18:11;PT4M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.str();FALSE
+Person 1;15.9.2023 18:11;PT5M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 1;15.9.2023 18:12;PT5M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 1;15.9.2023 18:12;PT5M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 1;15.9.2023 18:12;PT5M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;variable.strip();FALSE
+Person 1;15.9.2023 18:12;PT5M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 1;15.9.2023 18:12;PT5M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.string();FALSE
+Person 1;15.9.2023 18:12;PT6M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;replace.strip();FALSE
+Person 1;15.9.2023 18:12;PT6M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;input.strip();FALSE
+Person 1;15.9.2023 18:13;PT6M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"string.strip("""")";FALSE
+Person 1;15.9.2023 18:13;PT6M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"string.strip("" "")";FALSE
+Person 1;15.9.2023 18:13;PT6M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.strip("" "")";FALSE
+Person 1;15.9.2023 18:13;PT6M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"strip.str("" "")";FALSE
+Person 1;15.9.2023 18:13;PT7M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"message.replace("" "","""")";FALSE
+Person 1;15.9.2023 18:14;PT7M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;''.strip();FALSE
+Person 1;15.9.2023 18:14;PT7M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;''.lstrip();FALSE
+Person 1;15.9.2023 18:14;PT8M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.lstrip.(' ');FALSE
+Person 1;15.9.2023 18:14;PT8M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;'    '.lstrip();FALSE
+Person 1;15.9.2023 18:14;PT8M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;'    '.strip();FALSE
+Person 1;15.9.2023 18:14;PT8M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.strip(' ');FALSE
+Person 1;15.9.2023 18:14;PT8M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.strip(' ');FALSE
+Person 1;15.9.2023 18:15;PT8M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip(' ');FALSE
+Person 1;15.9.2023 18:15;PT8M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip('');FALSE
+Person 1;15.9.2023 18:15;PT8M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip([' ']);FALSE
+Person 1;15.9.2023 18:15;PT8M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip('');FALSE
+Person 1;15.9.2023 18:15;PT8M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip(');FALSE
+Person 1;15.9.2023 18:15;PT8M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 1;15.9.2023 18:15;PT9M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip(' ');FALSE
+Person 1;15.9.2023 18:15;PT9M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;space.strip();FALSE
+Person 1;15.9.2023 18:15;PT9M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip(' ');FALSE
+Person 1;15.9.2023 18:15;PT9M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 1;15.9.2023 18:16;PT9M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 1;15.9.2023 18:16;PT9M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence.strip("" "")";FALSE
+Person 1;15.9.2023 18:16;PT9M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 1;15.9.2023 18:16;PT9M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"spacebar.strip("" "")";FALSE
+Person 1;15.9.2023 18:16;PT9M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;spacebar.strip();FALSE
+Person 1;15.9.2023 18:16;PT10M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 1;15.9.2023 18:16;PT10M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove.strip();FALSE
+Person 1;15.9.2023 18:16;PT10M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 1;15.9.2023 18:16;PT10M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 1;15.9.2023 18:16;PT10M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;space.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;space.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;trim.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 1;15.9.2023 18:17;PT10M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;trim();FALSE
+Person 1;15.9.2023 18:17;PT10M38S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 1;15.9.2023 18:17;PT11M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.strip();FALSE
+Person 1;15.9.2023 18:18;PT12M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(ahoy);FALSE
+Person 1;15.9.2023 18:18;PT12M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(ahoy);FALSE
+Person 1;15.9.2023 18:19;PT12M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(avast);FALSE
+Person 1;15.9.2023 18:19;PT12M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"startswith(""ahoy""";FALSE
+Person 1;15.9.2023 18:19;PT12M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"startswith(""ahoy"")";FALSE
+Person 1;15.9.2023 18:19;PT12M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(arr);FALSE
+Person 1;15.9.2023 18:19;PT12M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"find(""ahoy"")";FALSE
+Person 1;15.9.2023 18:19;PT12M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(ahoy);FALSE
+Person 1;15.9.2023 18:19;PT12M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"find(""avast"")";FALSE
+Person 1;15.9.2023 18:19;PT12M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(arr!);FALSE
+Person 1;15.9.2023 18:19;PT12M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"find(""Avast"")";FALSE
+Person 1;15.9.2023 18:19;PT12M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.startswith(""ahoy"")";FALSE
+Person 1;15.9.2023 18:19;PT13M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.startswith(""ahoy"")";FALSE
+Person 1;15.9.2023 18:20;PT13M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""ahoy"")";FALSE
+Person 1;15.9.2023 18:20;PT13M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;arr!.find();FALSE
+Person 1;15.9.2023 18:20;PT13M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 1;15.9.2023 18:20;PT13M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.find(""arr!"")";FALSE
+Person 1;15.9.2023 18:20;PT13M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.find();FALSE
+Person 1;15.9.2023 18:20;PT13M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.find(""avast"")";FALSE
+Person 1;15.9.2023 18:20;PT13M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;arr.find();FALSE
+Person 1;15.9.2023 18:20;PT15M37S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 1;15.9.2023 18:21;PT18M10S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 1;15.9.2023 18:25;PT18M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time;FALSE
+Person 1;15.9.2023 18:25;PT18M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;currcurrent_time = int(time.time());FALSE
+Person 1;15.9.2023 18:25;PT18M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 1;15.9.2023 18:25;PT18M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;currcurrent_time=int(time.time());FALSE
+Person 1;15.9.2023 18:25;PT18M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 1;15.9.2023 18:25;PT18M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:25;PT18M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;currenttime=int(time.time());FALSE
+Person 1;15.9.2023 18:25;PT19M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;time=int(time.time());FALSE
+Person 1;15.9.2023 18:25;PT19M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;215;FALSE
+Person 1;15.9.2023 18:25;PT19M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;812;FALSE
+Person 1;15.9.2023 18:26;PT19M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;18252;FALSE
+Person 1;15.9.2023 18:26;PT19M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT19M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT20M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT20M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT20M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:26;PT20M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:27;PT20M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1223;FALSE
+Person 1;15.9.2023 18:27;PT20M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 1;15.9.2023 18:27;PT20M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;553;FALSE
+Person 1;15.9.2023 18:27;PT20M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1;FALSE
+Person 1;15.9.2023 18:27;PT20M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;780;FALSE
+Person 1;15.9.2023 18:27;PT20M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;345;FALSE
+Person 1;15.9.2023 18:27;PT20M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 1;15.9.2023 18:27;PT20M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=int(time.time());FALSE
+Person 1;15.9.2023 18:27;PT21M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;343;FALSE
+Person 1;15.9.2023 18:27;PT21M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 1;15.9.2023 18:28;PT21M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;274;FALSE
+Person 1;15.9.2023 18:28;PT21M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=print(int(time.time())[:3];FALSE
+Person 1;15.9.2023 18:28;PT21M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=print(int(time.time())[:3]);FALSE
+Person 1;15.9.2023 18:28;PT22M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time = datetime.datetime.now().time();FALSE
+Person 1;15.9.2023 18:28;PT22M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;current_time=print(f'(int(time.time()))[:3]);FALSE
+Person 1;15.9.2023 18:29;PT22M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;11;FALSE
+Person 1;15.9.2023 18:29;PT22M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;112;FALSE
+Person 1;15.9.2023 18:29;PT22M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;113;FALSE
+Person 1;15.9.2023 18:29;PT22M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;114;FALSE
+Person 1;15.9.2023 18:29;PT22M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;326;FALSE
+Person 1;15.9.2023 18:29;PT23M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;"current_time = time.strftime(""%H%M%S"") first_three_digits = current_time[:3]";FALSE
+Person 1;15.9.2023 18:30;PT24M32S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 1;15.9.2023 18:31;PT25M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 1;15.9.2023 18:32;PT26M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;The folder 'treasure_location' does not exist.;FALSE
+Person 1;15.9.2023 18:33;PT27M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;if os.path.exists(folder_name):;FALSE
+Person 1;15.9.2023 18:33;PT27M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 1;15.9.2023 18:34;PT27M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 1;15.9.2023 18:34;PT28M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;if os.path.exists(treasure_location);FALSE
+Person 1;15.9.2023 18:34;PT28M7S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 1;15.9.2023 18:35;PT28M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric();FALSE
+Person 1;15.9.2023 18:35;PT29M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:36;PT26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure);FALSE
+Person 1;15.9.2023 18:36;PT30M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;string.isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:36;PT30M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;int.isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:37;PT30M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;return isinstance(loc_treasure, (int, float, complex)));FALSE
+Person 1;15.9.2023 18:37;PT30M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isdigit(loc_treasure);FALSE
+Person 1;15.9.2023 18:37;PT30M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:37;PT30M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:37;PT31M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;re.match(r'^-?\d+(?:\.\d+)?$', str(loc_treasure)):;FALSE
+Person 1;15.9.2023 18:38;PT31M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isint(loc_treasure);FALSE
+Person 1;15.9.2023 18:38;PT31M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int, float));FALSE
+Person 1;15.9.2023 18:38;PT31M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;str.isdigit(loc_treasure)_;FALSE
+Person 1;15.9.2023 18:38;PT31M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;str.isdigit(loc_treasure);FALSE
+Person 1;15.9.2023 18:38;PT31M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is_integer(loc_treasure);FALSE
+Person 1;15.9.2023 18:38;PT31M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.isdigit(loc_treasure);FALSE
+Person 1;15.9.2023 18:38;PT31M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if isinstance(loc_treasure, (int, float)):;FALSE
+Person 1;15.9.2023 18:38;PT32M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.ifnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:38;PT32M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if isinstance(loc_treasure, (int, float)):;FALSE
+Person 1;15.9.2023 18:38;PT32M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:39;PT32M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;str.isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:39;PT32M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.isnumeric(loc_treasure);FALSE
+Person 1;15.9.2023 18:39;PT32M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if;FALSE
+Person 1;15.9.2023 18:39;PT32M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isdigit(loc_treasure);FALSE
+Person 1;15.9.2023 18:39;PT32M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.digit(loc_treasure);FALSE
+Person 1;15.9.2023 18:39;PT33M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isdigit();FALSE
+Person 1;15.9.2023 18:40;PT33M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isdigit.loc_treasure();FALSE
+Person 1;15.9.2023 18:40;PT33M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if isinstance(loc_treasure, (int, float)):;FALSE
+Person 1;15.9.2023 18:40;PT33M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.isdigit.loc_treasure();FALSE
+Person 1;15.9.2023 18:40;PT33M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;s.isdigit(loc_treasure);FALSE
+Person 1;15.9.2023 18:40;PT33M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnan(loc_treasure);FALSE
+Person 1;15.9.2023 18:40;PT33M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if isnan(loc_treasure, (int, float)):;FALSE
+Person 1;15.9.2023 18:40;PT33M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnan(loc_treasure);FALSE
+Person 1;15.9.2023 18:40;PT34M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnan(loc_treasure, (int, float)):;FALSE
+Person 1;15.9.2023 18:40;PT34M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnan(loc_treasure, (int, float));FALSE
+Person 1;15.9.2023 18:40;PT34M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnan(loc_treasure, (int, foat));FALSE
+Person 1;15.9.2023 18:41;PT34M13S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 1;15.9.2023 18:41;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;;FALSE
+Person 1;15.9.2023 18:41;PT35M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:42;PT36M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:43;PT36M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes"", [2])";FALSE
+Person 1;15.9.2023 18:43;PT36M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes"", [2]))";FALSE
+Person 1;15.9.2023 18:43;PT36M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""aye"", ""yes"", 2)";FALSE
+Person 1;15.9.2023 18:43;PT36M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""aye"", ""yes"", [2])";FALSE
+Person 1;15.9.2023 18:43;PT36M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes""[,2]))";FALSE
+Person 1;15.9.2023 18:43;PT36M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes""[2]))";FALSE
+Person 1;15.9.2023 18:43;PT36M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes, [2]);FALSE
+Person 1;15.9.2023 18:43;PT36M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=pirate_speak.replace(""Aye"", ""Yes"",[2]))";FALSE
+Person 1;15.9.2023 18:43;PT36M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes [,2]);FALSE
+Person 1;15.9.2023 18:43;PT37M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye','yes',[2]);FALSE
+Person 1;15.9.2023 18:43;PT37M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes',[2]));FALSE
+Person 1;15.9.2023 18:43;PT37M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes',[2]);FALSE
+Person 1;15.9.2023 18:44;PT37M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye','yes'[,2]);FALSE
+Person 1;15.9.2023 18:44;PT37M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes' [2]);FALSE
+Person 1;15.9.2023 18:44;PT37M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye','yes',2);FALSE
+Person 1;15.9.2023 18:44;PT37M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes' [,2]);FALSE
+Person 1;15.9.2023 18:44;PT37M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes' ,[,2]);FALSE
+Person 1;15.9.2023 18:44;PT37M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=pirate_speak.replace('Aye', 'Yes' ,[2]);FALSE
+Person 1;15.9.2023 18:44;PT37M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye','Yes',[2]);FALSE
+Person 1;15.9.2023 18:44;PT38M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye aye, yes[,2]);FALSE
+Person 1;15.9.2023 18:44;PT38M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye, Aye','yes, yes',[2]);FALSE
+Person 1;15.9.2023 18:44;PT38M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace('Aye Aye', 'Yes Yes'[,2]);FALSE
+Person 1;15.9.2023 18:45;PT38M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('Aye,Aye','yes,yes',[2]);FALSE
+Person 1;15.9.2023 18:45;PT38M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Aye"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('aye,aye','yes,yes',[2]);FALSE
+Person 1;15.9.2023 18:45;PT38M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('aye, aye','yes, yes',[2]);FALSE
+Person 1;15.9.2023 18:45;PT38M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace('Aye Aye', 'Yes Yes',2);FALSE
+Person 1;15.9.2023 18:45;PT38M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT38M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:45;PT55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace('Aye', 'Yes',2);FALSE
+Person 1;15.9.2023 18:45;PT39M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace('Aye','Yes',2);FALSE
+Person 1;15.9.2023 18:45;PT39M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace('Aye','Yes',1);FALSE
+Person 1;15.9.2023 18:45;PT39M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak = pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:46;PT39M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;replace('Aye','Yes',1);FALSE
+Person 1;15.9.2023 18:46;PT39M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"\irate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:46;PT39M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 1;15.9.2023 18:46;PT39M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;replace('Aye','Yes',2);FALSE
+Person 1;15.9.2023 18:46;PT20M25S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 1;15.9.2023 18:26;PT1M10S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 1;15.9.2023 18:08;PT20M55S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 1;15.9.2023 18:26;PT5S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 2;15.9.2023 18:07;PT1M;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 2;15.9.2023 18:08;PT1M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;time.sleep(2.0);FALSE
+Person 2;15.9.2023 18:08;PT1M23S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 2;15.9.2023 18:08;PT2M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove(' ');FALSE
+Person 2;15.9.2023 18:09;PT2M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 2;15.9.2023 18:09;PT2M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 2;15.9.2023 18:09;PT2M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip([chars]);FALSE
+Person 2;15.9.2023 18:09;PT2M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 2;15.9.2023 18:10;PT3M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 2;15.9.2023 18:10;PT3M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespaces.replace();FALSE
+Person 2;15.9.2023 18:10;PT3M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence_with_spaces = ""  Blackbeard loves spaces!   "" cleaned_sentence = sentence_with_spaces.strip()";FALSE
+Person 2;15.9.2023 18:10;PT3M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"whitespaces.replace("""")";FALSE
+Person 2;15.9.2023 18:10;PT4M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence_with_spaces = ""  Blackbeard loves spaces!   "" cleaned_sentence = sentence_with_spaces.strip()";FALSE
+Person 2;15.9.2023 18:11;PT4M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Blackbeard loves the spacebar. strip();FALSE
+Person 2;15.9.2023 18:11;PT4M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Blackbeard loves the spacebar. strip();FALSE
+Person 2;15.9.2023 18:12;PT5M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;join();FALSE
+Person 2;15.9.2023 18:12;PT5M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.join();FALSE
+Person 2;15.9.2023 18:12;PT5M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 2;15.9.2023 18:12;PT5M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.whitespace();FALSE
+Person 2;15.9.2023 18:12;PT5M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 2;15.9.2023 18:13;PT5M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence="" Blackbeard loves the spacebar. """;FALSE
+Person 2;15.9.2023 18:13;PT6M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence="" Blackbeard loves the spacebar. """;FALSE
+Person 2;15.9.2023 18:13;PT6M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence="" Blackbeard loves the spacebar. """;FALSE
+Person 2;15.9.2023 18:13;PT6M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 2;15.9.2023 18:13;PT6M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.whitespace();FALSE
+Person 2;15.9.2023 18:13;PT7M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip;FALSE
+Person 2;15.9.2023 18:14;PT7M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 2;15.9.2023 18:14;PT7M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.strip();FALSE
+Person 2;15.9.2023 18:14;PT8M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence_string.strip();FALSE
+Person 2;15.9.2023 18:15;PT8M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;' Blackbeard loves the spacebar. '.strip();FALSE
+Person 2;15.9.2023 18:15;PT8M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 2;15.9.2023 18:15;PT8M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 2;15.9.2023 18:15;PT8M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 2;15.9.2023 18:15;PT8M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.join();FALSE
+Person 2;15.9.2023 18:16;PT9M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.sentence();FALSE
+Person 2;15.9.2023 18:16;PT9M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.string();FALSE
+Person 2;15.9.2023 18:16;PT9M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;statement.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 2;15.9.2023 18:16;PT9M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 2;15.9.2023 18:17;PT10M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.whitespace();FALSE
+Person 2;15.9.2023 18:17;PT10M20S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 2;15.9.2023 18:18;PT11M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"find(""ahoy"")";FALSE
+Person 2;15.9.2023 18:18;PT11M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith(ahoy);FALSE
+Person 2;15.9.2023 18:18;PT11M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find(ahoy);FALSE
+Person 2;15.9.2023 18:18;PT11M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:19;PT12M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:19;PT13M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:20;PT13M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.find(""ahoy"")";FALSE
+Person 2;15.9.2023 18:20;PT13M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.name();FALSE
+Person 2;15.9.2023 18:21;PT14M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.find(ahoy,a,y);FALSE
+Person 2;15.9.2023 18:21;PT14M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.find(""ahoy"",""a"",""y"")";FALSE
+Person 2;15.9.2023 18:21;PT14M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startwith();FALSE
+Person 2;15.9.2023 18:21;PT15M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startwith(text);FALSE
+Person 2;15.9.2023 18:22;PT15M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith(text);FALSE
+Person 2;15.9.2023 18:22;PT15M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.startswith(""ahoy"")";FALSE
+Person 2;15.9.2023 18:22;PT15M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:22;PT15M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:22;PT15M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"string.startswith(""ahoy"")";FALSE
+Person 2;15.9.2023 18:22;PT15M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"string.startswith(""ahoy"")";FALSE
+Person 2;15.9.2023 18:22;PT15M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 2;15.9.2023 18:22;PT15M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"startswith(""ahoy"")";FALSE
+Person 2;15.9.2023 18:22;PT16M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith('ahoy');FALSE
+Person 2;15.9.2023 18:23;PT16M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"str.startswith(""ahoy"")";FALSE
+Person 2;15.9.2023 18:23;PT16M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 2;15.9.2023 18:23;PT16M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith("""")";FALSE
+Person 2;15.9.2023 18:23;PT16M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 2;15.9.2023 18:23;PT16M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith("""")";FALSE
+Person 2;15.9.2023 18:23;PT17M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"""ahoy"".startswith()";FALSE
+Person 2;15.9.2023 18:24;PT17M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 2;15.9.2023 18:24;PT17M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 2;15.9.2023 18:24;PT17M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith("""")";FALSE
+Person 2;15.9.2023 18:24;PT19M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith("""","""","""")";FALSE
+Person 2;15.9.2023 18:26;PT19M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;abaft.startswith();FALSE
+Person 2;15.9.2023 18:26;PT19M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;belay.startswith();FALSE
+Person 2;15.9.2023 18:26;PT19M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""Avast!"")";FALSE
+Person 2;15.9.2023 18:26;PT20M23S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""Avast"")";FALSE
+Person 2;15.9.2023 18:27;PT20M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;513;FALSE
+Person 2;15.9.2023 18:27;PT21M51S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 2;15.9.2023 18:28;PT21M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1;FALSE
+Person 2;15.9.2023 18:28;PT21M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;110;FALSE
+Person 2;15.9.2023 18:28;PT21M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;111;FALSE
+Person 2;15.9.2023 18:28;PT22M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1;FALSE
+Person 2;15.9.2023 18:29;PT22M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;94732;FALSE
+Person 2;15.9.2023 18:29;PT23M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;94;FALSE
+Person 2;15.9.2023 18:30;PT23M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;151;FALSE
+Person 2;15.9.2023 18:30;PT23M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;145;FALSE
+Person 2;15.9.2023 18:30;PT23M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;155;FALSE
+Person 2;15.9.2023 18:31;PT23M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;time.time();FALSE
+Person 2;15.9.2023 18:31;PT23M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;890;FALSE
+Person 2;15.9.2023 18:31;PT24M59S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 2;15.9.2023 18:31;PT24M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;169';FALSE
+Person 2;15.9.2023 18:31;PT24M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;169;FALSE
+Person 2;15.9.2023 18:31;PT24M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;90;FALSE
+Person 2;15.9.2023 18:32;PT25M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;350;FALSE
+Person 2;15.9.2023 18:32;PT25M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;170;FALSE
+Person 2;15.9.2023 18:32;PT25M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;treasure_location.somthing(folder);FALSE
+Person 2;15.9.2023 18:32;PT25M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_path);FALSE
+Person 2;15.9.2023 18:33;PT26M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 2;15.9.2023 18:33;PT26M20S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 2;15.9.2023 18:33;PT27M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isint();FALSE
+Person 2;15.9.2023 18:34;PT27M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure);FALSE
+Person 2;15.9.2023 18:34;PT27M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.int(loc_treasure);FALSE
+Person 2;15.9.2023 18:34;PT27M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"isinstance(""loc_treasure"")";FALSE
+Person 2;15.9.2023 18:34;PT27M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.instance(loc_treasure);FALSE
+Person 2;15.9.2023 18:35;PT28M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.instance(x);FALSE
+Person 2;15.9.2023 18:35;PT28M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.int(x);FALSE
+Person 2;15.9.2023 18:35;PT29M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.number(x);FALSE
+Person 2;15.9.2023 18:36;PT29M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int));FALSE
+Person 2;15.9.2023 18:36;PT29M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;type(x);FALSE
+Person 2;15.9.2023 18:36;PT29M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int,float));FALSE
+Person 2;15.9.2023 18:36;PT30M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;istype.int(x);FALSE
+Person 2;15.9.2023 18:37;PT30M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"isinstance(""loc_treasure"", (int,float))";FALSE
+Person 2;15.9.2023 18:37;PT31M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(x);FALSE
+Person 2;15.9.2023 18:38;PT31M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(x,int);FALSE
+Person 2;15.9.2023 18:38;PT31M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"isinstance(""loc_treasure"", int";FALSE
+Person 2;15.9.2023 18:38;PT32M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, int;FALSE
+Person 2;15.9.2023 18:39;PT33M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure,int);FALSE
+Person 2;15.9.2023 18:40;PT33M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;math.isan(loc_treasure);FALSE
+Person 2;15.9.2023 18:40;PT33M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;math.isnan(x);FALSE
+Person 2;15.9.2023 18:40;PT33M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"math.isan(float(""loc_treasure""))";FALSE
+Person 2;15.9.2023 18:40;PT34M39S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 2;15.9.2023 18:41;PT34M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;replace_aye_with_yes;FALSE
+Person 2;15.9.2023 18:42;PT35M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"text.replace(""Aye, Aye"",""yes"")";FALSE
+Person 2;15.9.2023 18:42;PT35M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"text.replace(""Aye, Aye"",""yes"",2)";FALSE
+Person 2;15.9.2023 18:42;PT35M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"text.replace(""Aye"",""yes"",2)";FALSE
+Person 2;15.9.2023 18:42;PT35M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"text.replace(""aye"",""yes"",2)";FALSE
+Person 2;15.9.2023 18:42;PT36M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"string.replace(""aye"",""yes"",2)";FALSE
+Person 2;15.9.2023 18:43;PT36M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak=str.replace(""aye,""yes[,2]"")";FALSE
+Person 2;15.9.2023 18:43;PT36M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"string.replace(""aye"",""yes"",[2])";FALSE
+Person 2;15.9.2023 18:43;PT36M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak=str.replace(aye,yes[,2]);FALSE
+Person 2;15.9.2023 18:43;PT37M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""aye"",""yes"",[2])";FALSE
+Person 2;15.9.2023 18:44;PT37M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",[2])";FALSE
+Person 2;15.9.2023 18:44;PT37M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes[,2]"")";FALSE
+Person 2;15.9.2023 18:44;PT37M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",[2])";FALSE
+Person 2;15.9.2023 18:44;PT37M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes[2]"")";FALSE
+Person 2;15.9.2023 18:44;PT22M35S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 2;15.9.2023 18:29;PT26M20S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 2;15.9.2023 18:33;PT14M53S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
+Person 2;15.9.2023 18:21;PT2M22S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 2;15.9.2023 18:09;PT28S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:08;PT3M;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:12;PT4M58S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 3;15.9.2023 18:12;PT6M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;time_sleep(2);FALSE
+Person 3;15.9.2023 18:15;PT6M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;hello.replace(' ','');FALSE
+Person 3;15.9.2023 18:15;PT6M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;replace(' ','');FALSE
+Person 3;15.9.2023 18:15;PT7M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 3;15.9.2023 18:15;PT7M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 3;15.9.2023 18:15;PT7M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 3;15.9.2023 18:15;PT7M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 3;15.9.2023 18:16;PT8M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 3;15.9.2023 18:16;PT8M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackeard.strip();FALSE
+Person 3;15.9.2023 18:16;PT8M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 3;15.9.2023 18:16;PT8M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 3;15.9.2023 18:16;PT8M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 3;15.9.2023 18:17;PT8M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 3;15.9.2023 18:17;PT8M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 3;15.9.2023 18:17;PT9M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;loves.strip();FALSE
+Person 3;15.9.2023 18:17;PT9M7S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 3;15.9.2023 18:17;PT9M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.strip();FALSE
+Person 3;15.9.2023 18:17;PT9M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.strip();FALSE
+Person 3;15.9.2023 18:18;PT9M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.halt();FALSE
+Person 3;15.9.2023 18:18;PT10M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;if text == 'ahoy';FALSE
+Person 3;15.9.2023 18:18;PT10M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;find('ahoy');FALSE
+Person 3;15.9.2023 18:18;PT11M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.find('ahoy');FALSE
+Person 3;15.9.2023 18:19;PT11M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;string.find('ahoy');FALSE
+Person 3;15.9.2023 18:19;PT11M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.contains('ahoy');FALSE
+Person 3;15.9.2023 18:20;PT12M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.find('ahoy');FALSE
+Person 3;15.9.2023 18:20;PT12M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.contains('ahoy');FALSE
+Person 3;15.9.2023 18:20;PT12M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.find(""ahoy"")";FALSE
+Person 3;15.9.2023 18:20;PT12M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.contains('avast');FALSE
+Person 3;15.9.2023 18:21;PT12M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;.contains('avast');FALSE
+Person 3;15.9.2023 18:21;PT12M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;text.contains('avast');FALSE
+Person 3;15.9.2023 18:21;PT13M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.contains('avast');FALSE
+Person 3;15.9.2023 18:21;PT13M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;tahoy_strip;FALSE
+Person 3;15.9.2023 18:21;PT14M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""cease"")";FALSE
+Person 3;15.9.2023 18:22;PT14M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""cease"")";FALSE
+Person 3;15.9.2023 18:22;PT14M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith('avast');FALSE
+Person 3;15.9.2023 18:22;PT14M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""ahoy"")";FALSE
+Person 3;15.9.2023 18:22;PT15M22S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 3;15.9.2023 18:24;PT16M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;blt;FALSE
+Person 3;15.9.2023 18:25;PT16M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;321;FALSE
+Person 3;15.9.2023 18:25;PT16M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;321;FALSE
+Person 3;15.9.2023 18:25;PT17M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;3 2 1;FALSE
+Person 3;15.9.2023 18:25;PT17M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;"""321""";FALSE
+Person 3;15.9.2023 18:25;PT17M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;321;FALSE
+Person 3;15.9.2023 18:25;PT17M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;123;FALSE
+Person 3;15.9.2023 18:25;PT18M34S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 3;15.9.2023 18:26;PT18M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;343;FALSE
+Person 3;15.9.2023 18:26;PT19M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;202;FALSE
+Person 3;15.9.2023 18:27;PT19M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;345;FALSE
+Person 3;15.9.2023 18:27;PT19M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;111;FALSE
+Person 3;15.9.2023 18:27;PT19M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;112;FALSE
+Person 3;15.9.2023 18:27;PT19M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;113;FALSE
+Person 3;15.9.2023 18:27;PT19M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;114;FALSE
+Person 3;15.9.2023 18:27;PT19M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1156;FALSE
+Person 3;15.9.2023 18:27;PT19M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;115;FALSE
+Person 3;15.9.2023 18:27;PT19M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;116;FALSE
+Person 3;15.9.2023 18:27;PT19M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;117;FALSE
+Person 3;15.9.2023 18:27;PT19M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;118;FALSE
+Person 3;15.9.2023 18:28;PT19M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;11;FALSE
+Person 3;15.9.2023 18:28;PT19M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;119;FALSE
+Person 3;15.9.2023 18:28;PT19M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;121;FALSE
+Person 3;15.9.2023 18:28;PT19M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;122;FALSE
+Person 3;15.9.2023 18:28;PT20M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 3;15.9.2023 18:28;PT20M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;π = 3.141592;FALSE
+Person 3;15.9.2023 18:29;PT21M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;420;FALSE
+Person 3;15.9.2023 18:29;PT21M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;201;FALSE
+Person 3;15.9.2023 18:29;PT21M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;200;FALSE
+Person 3;15.9.2023 18:29;PT21M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;20;FALSE
+Person 3;15.9.2023 18:29;PT21M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1;FALSE
+Person 3;15.9.2023 18:29;PT21M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;2;FALSE
+Person 3;15.9.2023 18:29;PT21M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;2;FALSE
+Person 3;15.9.2023 18:29;PT21M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;3;FALSE
+Person 3;15.9.2023 18:29;PT21M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;4;FALSE
+Person 3;15.9.2023 18:29;PT21M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;5;FALSE
+Person 3;15.9.2023 18:29;PT21M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;6;FALSE
+Person 3;15.9.2023 18:29;PT21M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;2 0 2;FALSE
+Person 3;15.9.2023 18:29;PT22M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;"""202""";FALSE
+Person 3;15.9.2023 18:30;PT22M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;150;FALSE
+Person 3;15.9.2023 18:31;PT23M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;0;FALSE
+Person 3;15.9.2023 18:31;PT24M9S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 3;15.9.2023 18:32;PT24M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;time.time;FALSE
+Person 3;15.9.2023 18:32;PT24M11S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 3;15.9.2023 18:32;PT24M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;int(loc_treasure);FALSE
+Person 3;15.9.2023 18:32;PT24M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;float(loc_treasure);FALSE
+Person 3;15.9.2023 18:32;PT24M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isfloat(loc_treasure);FALSE
+Person 3;15.9.2023 18:33;PT24M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isint(loc_treasure);FALSE
+Person 3;15.9.2023 18:33;PT24M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 3;15.9.2023 18:33;PT25M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 3;15.9.2023 18:33;PT25M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 3;15.9.2023 18:33;PT25M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric('loc_treasure');FALSE
+Person 3;15.9.2023 18:33;PT26M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(loc_treasure);FALSE
+Person 3;15.9.2023 18:34;PT26M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT26M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT27M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT27M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;!loc_treasure.isnumeric();FALSE
+Person 3;15.9.2023 18:35;PT27M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;#NAME?;FALSE
+Person 3;15.9.2023 18:35;PT21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;(loc_treasure.isnumeric());FALSE
+Person 3;15.9.2023 18:37;PT30M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;type(loc_treasure);FALSE
+Person 3;15.9.2023 18:38;PT30M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"x = 5 if x > 0:     print(""x is positive"") else:";FALSE
+Person 3;15.9.2023 18:39;PT31M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;int.as_integer_ratio(loc_treasure);FALSE
+Person 3;15.9.2023 18:39;PT31M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, int);FALSE
+Person 3;15.9.2023 18:39;PT31M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, float);FALSE
+Person 3;15.9.2023 18:39;PT32M29S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 3;15.9.2023 18:40;PT32M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;math.insan;FALSE
+Person 3;15.9.2023 18:41;PT32M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"string.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:41;PT32M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"", 2)";FALSE
+Person 3;15.9.2023 18:41;PT32M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:41;PT33M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"", 2)";FALSE
+Person 3;15.9.2023 18:41;PT33M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;math.insan;FALSE
+Person 3;15.9.2023 18:41;PT33M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT33M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak(""yes""";FALSE
+Person 3;15.9.2023 18:42;PT34M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak(""yes"")";FALSE
+Person 3;15.9.2023 18:42;PT34M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye"", ""yes"", 2)";FALSE
+Person 3;15.9.2023 18:42;PT34M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye"", ""yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT34M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace(aye, yes, 2);FALSE
+Person 3;15.9.2023 18:43;PT34M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye"", ""yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT34M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, aye"", ""yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT34M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT35M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace('aye', 'yes', 2);FALSE
+Person 3;15.9.2023 18:43;PT35M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""Yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"p\irate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""Yes""[, 2])";FALSE
+Person 3;15.9.2023 18:43;PT35M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:43;PT35M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 3;15.9.2023 18:44;PT35M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""Yes"", 2)";FALSE
+Person 3;15.9.2023 18:44;PT36M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(pirate, speak[, ""yes""]";FALSE
+Person 3;15.9.2023 18:44;PT7M3S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 3;15.9.2023 18:16;PT10M40S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:18;PT8S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:09;PT15M38S;received;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:23;PT18M17S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 4;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:26;PT24M10S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 3;15.9.2023 18:33;PT56S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
+Person 4;15.9.2023 18:07;PT0S;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 4;15.9.2023 18:08;PT2M56S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 4;15.9.2023 18:09;PT2M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 4;15.9.2023 18:09;PT2M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip( );FALSE
+Person 4;15.9.2023 18:09;PT3M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;cleaned_sentence = sentence.strip();FALSE
+Person 4;15.9.2023 18:10;PT3M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 4;15.9.2023 18:10;PT3M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove();FALSE
+Person 4;15.9.2023 18:10;PT4M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove( );FALSE
+Person 4;15.9.2023 18:11;PT4M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;replace();FALSE
+Person 4;15.9.2023 18:11;PT4M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;replace( );FALSE
+Person 4;15.9.2023 18:11;PT4M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;replace;FALSE
+Person 4;15.9.2023 18:11;PT5M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence.replace("" "", """")";FALSE
+Person 4;15.9.2023 18:12;PT5M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;re.sub(r'\s', '', sentence);FALSE
+Person 4;15.9.2023 18:12;PT5M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.repalce( );FALSE
+Person 4;15.9.2023 18:12;PT6M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"s.replace("" "", """")";FALSE
+Person 4;15.9.2023 18:13;PT7M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;\t\n\r\t;FALSE
+Person 4;15.9.2023 18:14;PT8M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip( );FALSE
+Person 4;15.9.2023 18:15;PT8M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.strip( "" "", """")";FALSE
+Person 4;15.9.2023 18:15;PT8M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.strip( "" "", """" ";FALSE
+Person 4;15.9.2023 18:15;PT8M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.strip( "" "", """" )";FALSE
+Person 4;15.9.2023 18:15;PT8M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 4;15.9.2023 18:15;PT8M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip( );FALSE
+Person 4;15.9.2023 18:15;PT8M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 4;15.9.2023 18:15;PT8M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 4;15.9.2023 18:16;PT8M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip( );FALSE
+Person 4;15.9.2023 18:16;PT8M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 4;15.9.2023 18:16;PT9M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Blackbeard.strip( );FALSE
+Person 4;15.9.2023 18:16;PT10M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 4;15.9.2023 18:17;PT10M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;text.strip( );FALSE
+Person 4;15.9.2023 18:17;PT10M14S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 4;15.9.2023 18:18;PT11M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;str.startswith();FALSE
+Person 4;15.9.2023 18:18;PT15M34S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 4;15.9.2023 18:22;PT19M15S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 4;15.9.2023 18:26;PT19M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;112;FALSE
+Person 4;15.9.2023 18:26;PT21M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;53;FALSE
+Person 4;15.9.2023 18:28;PT21M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;252;FALSE
+Person 4;15.9.2023 18:29;PT22M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;733;FALSE
+Person 4;15.9.2023 18:29;PT22M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 4;15.9.2023 18:30;PT23M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;113;FALSE
+Person 4;15.9.2023 18:31;PT24M45S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 4;15.9.2023 18:31;PT24M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_name);FALSE
+Person 4;15.9.2023 18:31;PT25M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 4;15.9.2023 18:32;PT25M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;find.treasure_location;FALSE
+Person 4;15.9.2023 18:32;PT25M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.isdir(folder_name);FALSE
+Person 4;15.9.2023 18:32;PT26M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.isdir(treasure_location);FALSE
+Person 4;15.9.2023 18:34;PT26M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;find(treasure_location);FALSE
+Person 4;15.9.2023 18:34;PT27M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists();FALSE
+Person 4;15.9.2023 18:34;PT27M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(“treasure_location”);FALSE
+Person 4;15.9.2023 18:34;PT27M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 4;15.9.2023 18:34;PT27M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;exists(treasure_location);FALSE
+Person 4;15.9.2023 18:34;PT27M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"exists(""treasure_location"")";FALSE
+Person 4;15.9.2023 18:35;PT28M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.treasure_location.exists(treasure_location);FALSE
+Person 4;15.9.2023 18:35;PT28M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.treasure_location.exists(""treasure_location"")";FALSE
+Person 4;15.9.2023 18:35;PT29M29S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 4;15.9.2023 18:36;PT29M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;int(lo_treasure);FALSE
+Person 4;15.9.2023 18:36;PT29M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;int(loc_treasure);FALSE
+Person 4;15.9.2023 18:36;PT30M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int, float));FALSE
+Person 4;15.9.2023 18:37;PT30M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is.integer(loc_treasure);FALSE
+Person 4;15.9.2023 18:37;PT30M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"is.integer(""loc_treasure"")";FALSE
+Person 4;15.9.2023 18:37;PT30M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"is.int(""loc_treasure"")";FALSE
+Person 4;15.9.2023 18:37;PT30M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"is_int(""loc_treasure"")";FALSE
+Person 4;15.9.2023 18:37;PT30M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"is_integer(""loc_treasure"")";FALSE
+Person 4;15.9.2023 18:38;PT31M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;is_integer(loc_treasure);FALSE
+Person 4;15.9.2023 18:38;PT31M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;if isinstance(loc_treasure, (int, float)):;FALSE
+Person 4;15.9.2023 18:38;PT31M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int, float)):;FALSE
+Person 4;15.9.2023 18:38;PT31M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"isinstance(""loc_treasure"")";FALSE
+Person 4;15.9.2023 18:38;PT31M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure);FALSE
+Person 4;15.9.2023 18:38;PT32M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure);FALSE
+Person 4;15.9.2023 18:39;PT32M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"float.is_integer(""loc_treasure""))";FALSE
+Person 4;15.9.2023 18:39;PT32M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;float.is_integer( );FALSE
+Person 4;15.9.2023 18:39;PT33M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;float.is_integer();FALSE
+Person 4;15.9.2023 18:40;PT34M26S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 4;15.9.2023 18:41;PT34M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"def replace_first_two_ayes(match):     global aye_count     aye_count += 1     if aye_count <= 2:         return ""yes""     else:         return match.group(0)";FALSE
+Person 4;15.9.2023 18:41;PT34M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;string.replace(aye, yes, 2);FALSE
+Person 4;15.9.2023 18:42;PT34M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;string.replace(aye, yes);FALSE
+Person 4;15.9.2023 18:42;PT36M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;def replace_first_two_ayes(match):;FALSE
+Person 4;15.9.2023 18:43;PT36M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes[, 2]);FALSE
+Person 4;15.9.2023 18:43;PT36M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;txt.replace(aye, yes);FALSE
+Person 4;15.9.2023 18:43;PT36M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes);FALSE
+Person 4;15.9.2023 18:44;PT37M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes[, 2]);FALSE
+Person 4;15.9.2023 18:44;PT37M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""aye"", ""yes"")";FALSE
+Person 4;15.9.2023 18:44;PT37M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes[, 2] );FALSE
+Person 4;15.9.2023 18:44;PT37M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""aye"", ""yes""[, 2]))";FALSE
+Person 4;15.9.2023 18:44;PT38M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(aye, yes[ , 2]);FALSE
+Person 4;15.9.2023 18:45;PT38M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace(aye, yes[, 2]);FALSE
+Person 4;15.9.2023 18:45;PT38M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes""[, 2])";FALSE
+Person 4;15.9.2023 18:46;PT38M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes""[, 2])";FALSE
+Person 4;15.9.2023 18:46;PT55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"",2)";FALSE
+Person 4;15.9.2023 18:46;PT11M18S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 4;15.9.2023 18:18;PT31M5S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 4;15.9.2023 18:39;PT2M46S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
+Person 4;15.9.2023 18:09;PT4S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:07;PT1M;started;http://activitystrea.ms/schema/1.0/start;https://registry.tincanapi.com/#uri/activityType/63;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:08;PT2M8S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 5;15.9.2023 18:09;PT4M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 5;15.9.2023 18:11;PT4M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip('');FALSE
+Person 5;15.9.2023 18:11;PT4M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip('  ');FALSE
+Person 5;15.9.2023 18:12;PT4M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.lstrip();FALSE
+Person 5;15.9.2023 18:12;PT5M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;text.stripe(' ');FALSE
+Person 5;15.9.2023 18:13;PT5M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 5;15.9.2023 18:13;PT6M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;''.strip();FALSE
+Person 5;15.9.2023 18:13;PT6M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"""str"".strip()";FALSE
+Person 5;15.9.2023 18:13;PT8M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;""""".strip()";FALSE
+Person 5;15.9.2023 18:15;PT8M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 5;15.9.2023 18:15;PT8M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;text.stripe'();FALSE
+Person 5;15.9.2023 18:15;PT8M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 5;15.9.2023 18:15;PT8M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 5;15.9.2023 18:15;PT8M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 5;15.9.2023 18:15;PT8M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.stripe'();FALSE
+Person 5;15.9.2023 18:16;PT8M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.stripe();FALSE
+Person 5;15.9.2023 18:16;PT9M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.str();FALSE
+Person 5;15.9.2023 18:16;PT9M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.str();FALSE
+Person 5;15.9.2023 18:16;PT9M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 5;15.9.2023 18:17;PT9M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 5;15.9.2023 18:17;PT9M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 5;15.9.2023 18:17;PT11M55S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 5;15.9.2023 18:18;PT11M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;.startswith(ahoy);FALSE
+Person 5;15.9.2023 18:19;PT11M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"text.startswith(""ahoy"")";FALSE
+Person 5;15.9.2023 18:19;PT12M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"message.startswith(""ahoy"")";FALSE
+Person 5;15.9.2023 18:19;PT15M1S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 5;15.9.2023 18:22;PT17M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;text//100;FALSE
+Person 5;15.9.2023 18:24;PT18M8S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 5;15.9.2023 18:25;PT18M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;202;FALSE
+Person 5;15.9.2023 18:26;PT19M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;date and time;FALSE
+Person 5;15.9.2023 18:26;PT19M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;.time;FALSE
+Person 5;15.9.2023 18:26;PT19M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;.time();FALSE
+Person 5;15.9.2023 18:26;PT19M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;112;FALSE
+Person 5;15.9.2023 18:27;PT20M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;str(current_time)[:3];FALSE
+Person 5;15.9.2023 18:27;PT22M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;//100;FALSE
+Person 5;15.9.2023 18:30;PT23M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 5;15.9.2023 18:30;PT24M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;136;FALSE
+Person 5;15.9.2023 18:32;PT26M45S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 5;15.9.2023 18:34;PT27M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path(""treasure_location"")";FALSE
+Person 5;15.9.2023 18:34;PT27M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path(treasure_location);FALSE
+Person 5;15.9.2023 18:34;PT27M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.dirname(treasure_location);FALSE
+Person 5;15.9.2023 18:35;PT28M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.dirname(""treasure_location"")";FALSE
+Person 5;15.9.2023 18:36;PT29M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.dirname(treasure_location);FALSE
+Person 5;15.9.2023 18:37;PT30M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 5;15.9.2023 18:37;PT30M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.lexists(treasure_location);FALSE
+Person 5;15.9.2023 18:37;PT30M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.fexists(treasure_location);FALSE
+Person 5;15.9.2023 18:37;PT30M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.fexists(""treasure_location"")";FALSE
+Person 5;15.9.2023 18:37;PT30M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.lexists(""treasure_location"")";FALSE
+Person 5;15.9.2023 18:37;PT31M27S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 5;15.9.2023 18:39;PT31M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric();FALSE
+Person 5;15.9.2023 18:39;PT32M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isnumeric(x);FALSE
+Person 5;15.9.2023 18:39;PT32M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasureisnumeric(x);FALSE
+Person 5;15.9.2023 18:39;PT32M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric(x);FALSE
+Person 5;15.9.2023 18:39;PT32M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnumeric();FALSE
+Person 5;15.9.2023 18:40;PT33M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;str.isnumeric(loc_treasure);FALSE
+Person 5;15.9.2023 18:40;PT33M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;loc_treasure.isnan();FALSE
+Person 5;15.9.2023 18:41;PT35M39S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 5;15.9.2023 18:43;PT36M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes""[, w])";FALSE
+Person 5;15.9.2023 18:43;PT36M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye"", ""yes""[, 2])";FALSE
+Person 5;15.9.2023 18:43;PT36M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes""[, 2])";FALSE
+Person 5;15.9.2023 18:43;PT36M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""yes""[, 2])";FALSE
+Person 5;15.9.2023 18:43;PT36M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""yes""[, 2])";FALSE
+Person 5;15.9.2023 18:44;PT37M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""yes"", 2)";FALSE
+Person 5;15.9.2023 18:44;PT38M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye"", ""yes""[,2])";FALSE
+Person 5;15.9.2023 18:45;PT38M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"",2)";FALSE
+Person 5;15.9.2023 18:45;PT38M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"", 2)";FALSE
+Person 5;15.9.2023 18:45;PT19M27S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 5;15.9.2023 18:27;PT30M35S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:38;PT19M56S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:27;PT11M44S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:18;PT1M22S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 5;15.9.2023 18:09;PT35S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:06;PT0S;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:07;PT1M34S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 6;15.9.2023 18:07;PT1M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 6;15.9.2023 18:08;PT1M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 6;15.9.2023 18:08;PT2M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 6;15.9.2023 18:08;PT2M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence.strip("" "")";FALSE
+Person 6;15.9.2023 18:09;PT2M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 6;15.9.2023 18:09;PT2M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"format sentence.strip("" "")";FALSE
+Person 6;15.9.2023 18:09;PT2M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;format sentence.strip();FALSE
+Person 6;15.9.2023 18:09;PT3M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;f'sentence.strip()';FALSE
+Person 6;15.9.2023 18:10;PT3M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence=sentence.strip()';FALSE
+Person 6;15.9.2023 18:10;PT3M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 6;15.9.2023 18:10;PT3M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence=(f'sentence.strip()');FALSE
+Person 6;15.9.2023 18:10;PT4M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip.sentence();FALSE
+Person 6;15.9.2023 18:10;PT4M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;""" "",sentence.strip()')";FALSE
+Person 6;15.9.2023 18:11;PT5M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 6;15.9.2023 18:12;PT5M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence_1=sentence.strip()');FALSE
+Person 6;15.9.2023 18:12;PT5M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;no_whitespace_string =;FALSE
+Person 6;15.9.2023 18:12;PT5M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence=sentence.strip()');FALSE
+Person 6;15.9.2023 18:12;PT6M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;no_whitespace_string();FALSE
+Person 6;15.9.2023 18:13;PT6M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 6;15.9.2023 18:13;PT6M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence= "" hello ""sentence.strip()";FALSE
+Person 6;15.9.2023 18:13;PT7M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence= "" hello ""sentence=sentence.strip()";FALSE
+Person 6;15.9.2023 18:13;PT7M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"sentence = ""   Blackbeard loves the spacebar.   "" cleaned_sentence = sentence.strip()";FALSE
+Person 6;15.9.2023 18:14;PT7M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip(' ');FALSE
+Person 6;15.9.2023 18:14;PT7M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;comment_string.strip();FALSE
+Person 6;15.9.2023 18:14;PT7M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.string.strip(' ');FALSE
+Person 6;15.9.2023 18:14;PT8M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.string.strip();FALSE
+Person 6;15.9.2023 18:14;PT8M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence_string.strip();FALSE
+Person 6;15.9.2023 18:14;PT8M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.strip();FALSE
+Person 6;15.9.2023 18:14;PT8M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;comment_str.strip();FALSE
+Person 6;15.9.2023 18:15;PT8M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 6;15.9.2023 18:15;PT9M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 6;15.9.2023 18:15;PT9M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentence.strip();FALSE
+Person 6;15.9.2023 18:15;PT9M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;time.strip();FALSE
+Person 6;15.9.2023 18:16;PT9M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 6;15.9.2023 18:16;PT9M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"""Blackbreard loves the spacebar"".strip()";FALSE
+Person 6;15.9.2023 18:16;PT10M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"""Blackbeard loves the spacebar"".strip()";FALSE
+Person 6;15.9.2023 18:17;PT10M44S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 6;15.9.2023 18:17;PT11M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:18;PT13M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.find();FALSE
+Person 6;15.9.2023 18:19;PT13M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.find('avast');FALSE
+Person 6;15.9.2023 18:19;PT13M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.find('avast');FALSE
+Person 6;15.9.2023 18:20;PT13M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""avast"")";FALSE
+Person 6;15.9.2023 18:20;PT13M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.text('avast');FALSE
+Person 6;15.9.2023 18:20;PT13M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.text('aye');FALSE
+Person 6;15.9.2023 18:20;PT13M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""aye"")";FALSE
+Person 6;15.9.2023 18:20;PT14M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""ay"")";FALSE
+Person 6;15.9.2023 18:20;PT14M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.text('avast');FALSE
+Person 6;15.9.2023 18:21;PT14M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""avast"")";FALSE
+Person 6;15.9.2023 18:21;PT14M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;"ahoy.find(""avast!"")";FALSE
+Person 6;15.9.2023 18:21;PT14M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.find('avast');FALSE
+Person 6;15.9.2023 18:21;PT14M51S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith('avast');FALSE
+Person 6;15.9.2023 18:21;PT15M56S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 6;15.9.2023 18:21;PT16M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;"ahot.startswith(""avast"")";FALSE
+Person 6;15.9.2023 18:22;PT17M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.constant(3);FALSE
+Person 6;15.9.2023 18:24;PT17M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.constant(1,2,3);FALSE
+Person 6;15.9.2023 18:24;PT19M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.constant(1,2,3);FALSE
+Person 6;15.9.2023 18:25;PT19M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi;FALSE
+Person 6;15.9.2023 18:25;PT19M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.e;FALSE
+Person 6;15.9.2023 18:26;PT19M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.tau;FALSE
+Person 6;15.9.2023 18:26;PT19M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.inf;FALSE
+Person 6;15.9.2023 18:26;PT20M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi math.e math.tau;FALSE
+Person 6;15.9.2023 18:26;PT20M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.constant(pi, e, tau);FALSE
+Person 6;15.9.2023 18:27;PT20M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.nan;FALSE
+Person 6;15.9.2023 18:27;PT20M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(314);FALSE
+Person 6;15.9.2023 18:27;PT21M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.constant(326);FALSE
+Person 6;15.9.2023 18:28;PT21M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(3,2,6);FALSE
+Person 6;15.9.2023 18:28;PT21M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(3,1,4);FALSE
+Person 6;15.9.2023 18:28;PT22M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.e(2,7,1);FALSE
+Person 6;15.9.2023 18:28;PT22M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math(3,2,6);FALSE
+Person 6;15.9.2023 18:29;PT22M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(3,2,6);FALSE
+Person 6;15.9.2023 18:29;PT22M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(3 2 6);FALSE
+Person 6;15.9.2023 18:29;PT22M52S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 6;15.9.2023 18:29;PT24M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;326;FALSE
+Person 6;15.9.2023 18:30;PT26M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;datetime.now();FALSE
+Person 6;15.9.2023 18:33;PT27M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:34;PT27M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:34;PT28M57S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;132;FALSE
+Person 6;15.9.2023 18:34;PT28M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;345;FALSE
+Person 6;15.9.2023 18:35;PT28M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:35;PT28M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;18:34:24;FALSE
+Person 6;15.9.2023 18:35;PT28M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183424;FALSE
+Person 6;15.9.2023 18:35;PT28M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;18 34 24;FALSE
+Person 6;15.9.2023 18:35;PT28M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;18:34:24.620890;FALSE
+Person 6;15.9.2023 18:35;PT29M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;18,34,24.620890;FALSE
+Person 6;15.9.2023 18:35;PT29M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;620;FALSE
+Person 6;15.9.2023 18:36;PT29M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;1;FALSE
+Person 6;15.9.2023 18:36;PT29M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;131;FALSE
+Person 6;15.9.2023 18:36;PT29M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;131;FALSE
+Person 6;15.9.2023 18:36;PT30M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;133;FALSE
+Person 6;15.9.2023 18:36;PT30M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;464;FALSE
+Person 6;15.9.2023 18:37;PT30M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 6;15.9.2023 18:37;PT59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 6;15.9.2023 18:37;PT31M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;124;FALSE
+Person 6;15.9.2023 18:37;PT31M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:37;PT31M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;12;FALSE
+Person 6;15.9.2023 18:37;PT31M3S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;133;FALSE
+Person 6;15.9.2023 18:37;PT31M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;186;FALSE
+Person 6;15.9.2023 18:37;PT31M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;634;FALSE
+Person 6;15.9.2023 18:37;PT31M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;638;FALSE
+Person 6;15.9.2023 18:37;PT31M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;333;FALSE
+Person 6;15.9.2023 18:37;PT31M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;684;FALSE
+Person 6;15.9.2023 18:37;PT31M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;111;FALSE
+Person 6;15.9.2023 18:38;PT31M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;131;FALSE
+Person 6;15.9.2023 18:38;PT31M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;132;FALSE
+Person 6;15.9.2023 18:38;PT32M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:38;PT32M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;135;FALSE
+Person 6;15.9.2023 18:39;PT32M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:39;PT32M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:39;PT32M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;183;FALSE
+Person 6;15.9.2023 18:39;PT32M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;132;FALSE
+Person 6;15.9.2023 18:39;PT33M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;182;FALSE
+Person 6;15.9.2023 18:40;PT33M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;546;FALSE
+Person 6;15.9.2023 18:40;PT33M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;876;FALSE
+Person 6;15.9.2023 18:40;PT33M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;963;FALSE
+Person 6;15.9.2023 18:40;PT33M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;912;FALSE
+Person 6;15.9.2023 18:40;PT33M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;963;FALSE
+Person 6;15.9.2023 18:40;PT35M58S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 6;15.9.2023 18:42;PT36M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.getcwd.folder(""treasure_location"")";FALSE
+Person 6;15.9.2023 18:42;PT36M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.isdir(""treasure_location"")";FALSE
+Person 6;15.9.2023 18:43;PT2M25S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 6;15.9.2023 18:08;PT39M10S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:45;PT33M16S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:39;PT30M17S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:37;PT15M51S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:22;PT13M40S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 4;Escape room test;Databases;;FALSE
+Person 6;15.9.2023 18:20;PT19S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:33;PT0S;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:33;PT16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:33;PT1M40S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 7;13.9.2023 19:35;PT1M46S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 7;13.9.2023 19:35;PT1M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;help;FALSE
+Person 7;13.9.2023 19:35;PT2M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;help;FALSE
+Person 7;13.9.2023 19:35;PT21M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;help;FALSE
+Person 7;13.9.2023 19:55;PT24M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:58;PT2783M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;;FALSE
+Person 7;15.9.2023 17:56;PT2783M34S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 7;15.9.2023 17:57;PT2783M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;169;FALSE
+Person 7;15.9.2023 17:57;PT2783M56S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 7;15.9.2023 17:57;PT2784M59S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 7;15.9.2023 17:57;PT2784M22S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 7;15.9.2023 17:57;PT2785M40S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 7;15.9.2023 17:58;PT7S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 7;13.9.2023 19:33;PT23S;received;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:34;PT2M52S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 7;13.9.2023 19:35;PT10S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:06;PT0S;started;http://activitystrea.ms/schema/1.0/start;Game;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:07;PT52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 1;Escape room test;Databases;sleep(2);FALSE
+Person 8;15.9.2023 18:07;PT1M55S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 1;Escape room test;Databases;time.sleep(2);FALSE
+Person 8;15.9.2023 18:08;PT1M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip();FALSE
+Person 8;15.9.2023 18:08;PT1M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;strip;FALSE
+Person 8;15.9.2023 18:08;PT2M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 8;15.9.2023 18:09;PT38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"replace("" "","""")";FALSE
+Person 8;15.9.2023 18:09;PT4M;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;""" "".replace("" "","""")";FALSE
+Person 8;15.9.2023 18:11;PT4M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.replace(' ','');FALSE
+Person 8;15.9.2023 18:11;PT4M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.strip();FALSE
+Person 8;15.9.2023 18:11;PT4M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.replace("" "","""")";FALSE
+Person 8;15.9.2023 18:11;PT4M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.replace();FALSE
+Person 8;15.9.2023 18:11;PT5M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;s.strip;FALSE
+Person 8;15.9.2023 18:12;PT5M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;mystring.strip();FALSE
+Person 8;15.9.2023 18:12;PT5M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"mystring.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:12;PT5M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;r.strip;FALSE
+Person 8;15.9.2023 18:12;PT5M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;r.strip();FALSE
+Person 8;15.9.2023 18:12;PT6M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;r.strip() ;FALSE
+Person 8;15.9.2023 18:13;PT7M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;string.isspace();FALSE
+Person 8;15.9.2023 18:14;PT7M15S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"spacebar.replace("" "","""")";FALSE
+Person 8;15.9.2023 18:14;PT7M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;str.strip();FALSE
+Person 8;15.9.2023 18:14;PT7M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"str.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:14;PT7M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"spacebar.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:14;PT7M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"space.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:14;PT7M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"whitespace.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:14;PT8M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;comment.strip();FALSE
+Person 8;15.9.2023 18:14;PT8M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;"string.strip("" "","""")";FALSE
+Person 8;15.9.2023 18:15;PT8M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;spacebar.strip();FALSE
+Person 8;15.9.2023 18:15;PT8M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 8;15.9.2023 18:15;PT8M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;message.strip();FALSE
+Person 8;15.9.2023 18:15;PT8M55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 8;15.9.2023 18:15;PT8M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;something.strip();FALSE
+Person 8;15.9.2023 18:15;PT58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;.strip();FALSE
+Person 8;15.9.2023 18:15;PT9M;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases; .strip();FALSE
+Person 8;15.9.2023 18:15;PT9M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 8;15.9.2023 18:15;PT9M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;spacebar.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;spaces.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;bar.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;remove.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;spaces.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespace.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Spaces.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;whitespaces.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;blackbeard.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Whitespaces.strip();FALSE
+Person 8;15.9.2023 18:16;PT9M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases; .strip();FALSE
+Person 8;15.9.2023 18:16;PT9M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;  .strip();FALSE
+Person 8;15.9.2023 18:16;PT9M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;Blackbeard.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;beginning.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;end.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M2S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;beginning.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;en.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;end.strip();FALSE
+Person 8;15.9.2023 18:16;PT10M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;sentences.strip();FALSE
+Person 8;15.9.2023 18:17;PT10M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;beginning_and_end.strip();FALSE
+Person 8;15.9.2023 18:17;PT10M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 2;Escape room test;Databases;something.strip();FALSE
+Person 8;15.9.2023 18:17;PT10M34S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 2;Escape room test;Databases;text.strip();FALSE
+Person 8;15.9.2023 18:17;PT11M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:18;PT11M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 3;Escape room test;Databases;ahoy.startswith();FALSE
+Person 8;15.9.2023 18:18;PT13M55S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 3;Escape room test;Databases;"ahoy.startswith(""avast"")";FALSE
+Person 8;15.9.2023 18:20;PT13M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;'math.pi':3;FALSE
+Person 8;15.9.2023 18:20;PT13M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;o'math.pi':3;FALSE
+Person 8;15.9.2023 18:20;PT13M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;math.pi(3);FALSE
+Person 8;15.9.2023 18:20;PT13M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;o' math.pi: 3;FALSE
+Person 8;15.9.2023 18:20;PT13M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;o' math.pi: 3;FALSE
+Person 8;15.9.2023 18:20;PT14M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;o' math.e: 2;FALSE
+Person 8;15.9.2023 18:21;PT15M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;constants = [math.pi, math.e, math.tau];FALSE
+Person 8;15.9.2023 18:22;PT15M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;o' math.e: 3;FALSE
+Person 8;15.9.2023 18:22;PT15M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;123;FALSE
+Person 8;15.9.2023 18:22;PT15M46S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;234;FALSE
+Person 8;15.9.2023 18:22;PT15M49S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;345;FALSE
+Person 8;15.9.2023 18:22;PT16M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;135;FALSE
+Person 8;15.9.2023 18:22;PT16M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;123;FALSE
+Person 8;15.9.2023 18:22;PT16M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;12;FALSE
+Person 8;15.9.2023 18:22;PT16M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;1;FALSE
+Person 8;15.9.2023 18:22;PT16M9S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;321;FALSE
+Person 8;15.9.2023 18:22;PT16M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;12;FALSE
+Person 8;15.9.2023 18:23;PT16M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;Mar.14;FALSE
+Person 8;15.9.2023 18:23;PT17M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;314;FALSE
+Person 8;15.9.2023 18:24;PT18M54S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;314;FALSE
+Person 8;15.9.2023 18:24;PT18M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;271;FALSE
+Person 8;15.9.2023 18:24;PT18M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 4;Escape room test;Databases;376;FALSE
+Person 8;15.9.2023 18:25;PT18M13S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 4;Escape room test;Databases;326;FALSE
+Person 8;15.9.2023 18:25;PT18M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;time.time;FALSE
+Person 8;15.9.2023 18:25;PT19M47S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;time.time();FALSE
+Person 8;15.9.2023 18:25;PT19M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;164;FALSE
+Person 8;15.9.2023 18:25;PT19M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;16.Apr;FALSE
+Person 8;15.9.2023 18:26;PT19M34S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;12;FALSE
+Person 8;15.9.2023 18:26;PT20M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;123;FALSE
+Person 8;15.9.2023 18:27;PT23M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 5;Escape room test;Databases;0;FALSE
+Person 8;15.9.2023 18:30;PT24M50S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 5;Escape room test;Databases;169;FALSE
+Person 8;15.9.2023 18:31;PT24M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"folder_path = ""treasure_location""";FALSE
+Person 8;15.9.2023 18:31;PT24M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;if os.path.exists(folder_path):;FALSE
+Person 8;15.9.2023 18:31;PT25M52S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"if os.path.exists(folder_path):     print(""The 'treasure_location' folder exists."")";FALSE
+Person 8;15.9.2023 18:31;PT25M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.exists(folder_path):     print(""The 'treasure_location' folder exists."")";FALSE
+Person 8;15.9.2023 18:32;PT25M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;does not exist;FALSE
+Person 8;15.9.2023 18:32;PT25M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 8;15.9.2023 18:32;PT42S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;The folder 'treasure_location' does not exist.;FALSE
+Person 8;15.9.2023 18:32;PT26M12S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_path);FALSE
+Person 8;15.9.2023 18:32;PT26M6S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_name):;FALSE
+Person 8;15.9.2023 18:32;PT26M10S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_name);FALSE
+Person 8;15.9.2023 18:33;PT26M19S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_location);FALSE
+Person 8;15.9.2023 18:33;PT26M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_treasure);FALSE
+Person 8;15.9.2023 18:33;PT26M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location));FALSE
+Person 8;15.9.2023 18:33;PT26M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 8;15.9.2023 18:33;PT27M58S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_exists);FALSE
+Person 8;15.9.2023 18:33;PT27M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_path);FALSE
+Person 8;15.9.2023 18:34;PT27M21S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists();FALSE
+Person 8;15.9.2023 18:34;PT27M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists( );FALSE
+Person 8;15.9.2023 18:34;PT27M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.isdir(treasure_location);FALSE
+Person 8;15.9.2023 18:34;PT27M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(folder_exist);FALSE
+Person 8;15.9.2023 18:34;PT27M30S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exist(folder_exist);FALSE
+Person 8;15.9.2023 18:34;PT27M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exist(folder_exists);FALSE
+Person 8;15.9.2023 18:34;PT27M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.lexist(folder_exists);FALSE
+Person 8;15.9.2023 18:34;PT27M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exist(path);FALSE
+Person 8;15.9.2023 18:34;PT28M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(path);FALSE
+Person 8;15.9.2023 18:35;PT28M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(paths);FALSE
+Person 8;15.9.2023 18:35;PT28M14S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(path);FALSE
+Person 8;15.9.2023 18:35;PT28M22S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location));FALSE
+Person 8;15.9.2023 18:35;PT28M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.lexists(treasure_location);FALSE
+Person 8;15.9.2023 18:35;PT28M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location""))";FALSE
+Person 8;15.9.2023 18:35;PT28M35S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location""))";FALSE
+Person 8;15.9.2023 18:35;PT29M48S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.expanduser(treasure_location);FALSE
+Person 8;15.9.2023 18:36;PT29M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(path);FALSE
+Person 8;15.9.2023 18:36;PT29M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.realpath(treasure_location);FALSE
+Person 8;15.9.2023 18:36;PT29M17S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(something);FALSE
+Person 8;15.9.2023 18:36;PT29M24S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(tresure_location);FALSE
+Person 8;15.9.2023 18:36;PT29M31S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.samefile(treasure_location);FALSE
+Person 8;15.9.2023 18:36;PT29M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure_location);FALSE
+Person 8;15.9.2023 18:36;PT29M40S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.samefile();FALSE
+Person 8;15.9.2023 18:36;PT29M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists(treasure);FALSE
+Person 8;15.9.2023 18:36;PT30M59S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.sameopenfile(treasure_location);FALSE
+Person 8;15.9.2023 18:36;PT30M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.folder.exists(treasure_location);FALSE
+Person 8;15.9.2023 18:37;PT31M53S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.folder.exists(treasure_location);FALSE
+Person 8;15.9.2023 18:37;PT31M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.folder.exists(""treasure_location"")";FALSE
+Person 8;15.9.2023 18:38;PT31M26S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.path.exists('treasure_location');FALSE
+Person 8;15.9.2023 18:38;PT31M33S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.exist(""treasure_location"")";FALSE
+Person 8;15.9.2023 18:38;PT31M36S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;os.folder.exists('treasure_location');FALSE
+Person 8;15.9.2023 18:38;PT31M43S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.folder.exists(""treasure_location"")";FALSE
+Person 8;15.9.2023 18:38;PT31M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 6;Escape room test;Databases;"os.path.lexists(""treasure_location"")";FALSE
+Person 8;15.9.2023 18:38;PT32M47S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 6;Escape room test;Databases;"os.path.exists(""treasure_location"")";FALSE
+Person 8;15.9.2023 18:39;PT33M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"isinstance(""loc_treasure"")";FALSE
+Person 8;15.9.2023 18:40;PT33M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;isinstance(loc_treasure, (int, float));FALSE
+Person 8;15.9.2023 18:40;PT33M39S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"math.isnan(""loc_treasure)";FALSE
+Person 8;15.9.2023 18:40;PT33M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;"math.isnan(""loc_treasure"")";FALSE
+Person 8;15.9.2023 18:40;PT34M50S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 7;Escape room test;Databases;math.isnan(math.nan);FALSE
+Person 8;15.9.2023 18:41;PT35M32S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 7;Escape room test;Databases;math.isnan(loc_treasure);FALSE
+Person 8;15.9.2023 18:41;PT35M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"'str.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 8;15.9.2023 18:42;PT35M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 8;15.9.2023 18:42;PT35M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"`str.replace(""Aye"", ""Yes"", 2)";FALSE
+Person 8;15.9.2023 18:42;PT35M37S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"`str.replace(""Aye"", ""Yes"", 2)`";FALSE
+Person 8;15.9.2023 18:42;PT36M38S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"`str.replace(""Aye"", ""Yes"", 2)`";FALSE
+Person 8;15.9.2023 18:43;PT36M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""yes"", ""Aye, Aye""[, 2])";FALSE
+Person 8;15.9.2023 18:43;PT36M32S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(yes, Aye, Aye[, 2]);FALSE
+Person 8;15.9.2023 18:43;PT36M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Yes, Aye, Aye[, 2]);FALSE
+Person 8;15.9.2023 18:43;PT37M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""pirate_speak"")";FALSE
+Person 8;15.9.2023 18:43;PT37M5S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Aye,Aye , yes[, 2]);FALSE
+Person 8;15.9.2023 18:43;PT37M7S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Aye,Aye , Yes[, 2]);FALSE
+Person 8;15.9.2023 18:44;PT37M13S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Aye , Yes[, 2]);FALSE
+Person 8;15.9.2023 18:44;PT37M23S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye"", ""Yes""[, 2])";FALSE
+Person 8;15.9.2023 18:44;PT37M29S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye,Aye"", ""Yes""[, 2])";FALSE
+Person 8;15.9.2023 18:44;PT37M41S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye,Aye"",""Yes""[, 2])";FALSE
+Person 8;15.9.2023 18:44;PT37M45S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye,Aye"",""Yes""[,2])";FALSE
+Person 8;15.9.2023 18:44;PT38M56S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye, Aye"",""Yes""[,2])";FALSE
+Person 8;15.9.2023 18:44;PT38M1S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye, Aye"",""yes""[,2])";FALSE
+Person 8;15.9.2023 18:45;PT38M11S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye, Aye"",""yes""[, 2])";FALSE
+Person 8;15.9.2023 18:45;PT38M25S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Aye, Aye,yes[, 2]);FALSE
+Person 8;15.9.2023 18:45;PT38M27S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"str.replace(""Aye, Aye,"" yes[,2])";FALSE
+Person 8;15.9.2023 18:45;PT38M28S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;str.replace(Aye, Aye, yes[, 2]);FALSE
+Person 8;15.9.2023 18:45;PT38M44S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;pirate_speak.replace(Aye, Aye, yes[, 2]);FALSE
+Person 8;15.9.2023 18:45;PT55S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""yes"", 2)";FALSE
+Person 8;15.9.2023 18:45;PT39M18S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye,"" yes[,2])";FALSE
+Person 8;15.9.2023 18:45;PT39M4S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""Aye, Aye"", ""yes"", 2)";FALSE
+Person 8;15.9.2023 18:45;PT39M8S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"", ""yes"", 2)";FALSE
+Person 8;15.9.2023 18:46;PT39M16S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye, aye,"" 2])";FALSE
+Person 8;15.9.2023 18:46;PT39M20S;failed;http://adlnet.gov/expapi/verbs/failed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"", 2)";FALSE
+Person 8;15.9.2023 18:46;PT12M23S;passed;http://adlnet.gov/expapi/verbs/passed;Puzzle 8;Escape room test;Databases;"pirate_speak.replace(""aye"",""yes"",2)";TRUE
+Person 8;15.9.2023 18:19;PT11M52S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 4;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:18;PT1M46S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 3;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:08;PT18M53S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 2;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:25;PT33M48S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 5;Escape room test;Databases;;FALSE
+Person 8;15.9.2023 18:39;PT1S;received;https://registry.tincanapi.com/#uri/verb/131;Puzzle 7;Escape room test;Databases;;FALSE
