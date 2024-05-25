@@ -1,4 +1,5 @@
 library(shiny)
+library(future)
 library(promises)
 library(tidyr)
 library(shinyBS)
@@ -137,50 +138,52 @@ server <- function(input, output, session) {  # Include session argument here
     }
   )
   
-  # Convert wide to long format
+  # Convert to xAPI
   observeEvent(input$convert2xapi, {
+    withProgress(message = 'Converting to XAPI', value = 0, {
+      actor_email <- input$actor_email
+      actor_name <- input$actor_name
+      verb_id <- input$verb_id
+      verb_display <- input$verb_display
+      activity_name <- input$activity_name
+      activity_id <- input$activity_id
+      result_response <- input$result_response
+      result_scaled <- input$result_scaled
+      result_raw <- input$result_raw
+      result_success <- input$result_success
+      result_completion <- input$result_completion
+      result_duration <- input$result_duration
+      context_id1 <- input$context_id1
+      context_name1 <- input$context_name1
+      context_id2 <- input$context_id2
+      context_name2 <- input$context_name2
+      timestamp <- input$timestamp
+      
+      global_data_2 = global_data()
+      
+      xapi_data = global_data_2 %>% dplyr::select(id = 1)
+      
+      for (i in 1:nrow(global_data_2)) {
+        xapi_data[i,"actor_email"] <- ifelse(actor_email != "Empty", global_data_2[i,actor_email], NA);
+        xapi_data[i,"actor_name"] <- ifelse(actor_name != "Empty", global_data_2[i,actor_name], NA);
+        xapi_data[i,"verb_id"] <- ifelse(verb_id != "Empty", global_data_2[i,verb_id], NA);
+        xapi_data[i,"verb_display"] <- ifelse(verb_display != "Empty", global_data_2[i,verb_display], NA);
+        xapi_data[i,"activity_name"] <- ifelse(activity_name != "Empty", global_data_2[i,activity_name], NA);
+        xapi_data[i,"activity_id"] <- ifelse(activity_id != "Empty", global_data_2[i,activity_id], NA);
+        xapi_data[i,"result_response"] <- ifelse(result_response != "Empty", global_data_2[i,result_response], NA);
+        xapi_data[i,"result_scaled"] <- ifelse(result_scaled != "Empty", global_data_2[i,result_scaled], NA);
+        xapi_data[i,"result_raw"] <- ifelse(result_raw != "Empty", global_data_2[i,result_raw], NA);
+        xapi_data[i,"result_success"] <- ifelse(result_success != "Empty", global_data_2[i,result_success], NA);
+        xapi_data[i,"result_completion"] <- ifelse(result_completion != "Empty", global_data_2[i,result_completion], NA);
+        xapi_data[i,"result_duration"] <- ifelse(result_duration != "Empty", global_data_2[i,result_duration], NA);
+        xapi_data[i,"context_id1"] <- ifelse(context_id1 != "Empty", global_data_2[i,context_id1], NA);
+        xapi_data[i,"context_name1"] <- ifelse(context_name1 != "Empty", global_data_2[i,context_name1], NA);
+        xapi_data[i,"context_id2"] <- ifelse(context_id2 != "Empty", global_data_2[i,context_id2], NA);
+        xapi_data[i,"context_name2"] <- ifelse(context_name2 != "Empty", global_data_2[i,context_name2], NA);
+        xapi_data[i,"timestamp"] <- ifelse(timestamp != "Empty", lapply(global_data_2[i,timestamp],parsedate::parse_date), NA);
+        incProgress(1/nrow(global_data_2), detail = paste("Converted ", i, "/",nrow(global_data_2)," records"))
+      }
     
-    actor_email <- input$actor_email
-    actor_name <- input$actor_name
-    verb_id <- input$verb_id
-    verb_display <- input$verb_display
-    activity_name <- input$activity_name
-    activity_id <- input$activity_id
-    result_response <- input$result_response
-    result_scaled <- input$result_scaled
-    result_raw <- input$result_raw
-    result_success <- input$result_success
-    result_completion <- input$result_completion
-    result_duration <- input$result_duration
-    context_id1 <- input$context_id1
-    context_name1 <- input$context_name1
-    context_id2 <- input$context_id2
-    context_name2 <- input$context_name2
-    timestamp <- input$timestamp
-    
-    global_data_2 = global_data()
-    
-    xapi_data = global_data_2 %>% dplyr::select(id = 1)
-    
-    for (i in 1:nrow(global_data_2)) {
-    xapi_data[i,"actor_email"] <- ifelse(actor_email != "Empty", global_data_2[i,actor_email], NA);
-    xapi_data[i,"actor_name"] <- ifelse(actor_name != "Empty", global_data_2[i,actor_name], NA);
-    xapi_data[i,"verb_id"] <- ifelse(verb_id != "Empty", global_data_2[i,verb_id], NA);
-    xapi_data[i,"verb_display"] <- ifelse(verb_display != "Empty", global_data_2[i,verb_display], NA);
-    xapi_data[i,"activity_name"] <- ifelse(activity_name != "Empty", global_data_2[i,activity_name], NA);
-    xapi_data[i,"activity_id"] <- ifelse(activity_id != "Empty", global_data_2[i,activity_id], NA);
-    xapi_data[i,"result_response"] <- ifelse(result_response != "Empty", global_data_2[i,result_response], NA);
-    xapi_data[i,"result_scaled"] <- ifelse(result_scaled != "Empty", global_data_2[i,result_scaled], NA);
-    xapi_data[i,"result_raw"] <- ifelse(result_raw != "Empty", global_data_2[i,result_raw], NA);
-    xapi_data[i,"result_success"] <- ifelse(result_success != "Empty", global_data_2[i,result_success], NA);
-    xapi_data[i,"result_completion"] <- ifelse(result_completion != "Empty", global_data_2[i,result_completion], NA);
-    xapi_data[i,"result_duration"] <- ifelse(result_duration != "Empty", global_data_2[i,result_duration], NA);
-    xapi_data[i,"context_id1"] <- ifelse(context_id1 != "Empty", global_data_2[i,context_id1], NA);
-    xapi_data[i,"context_name1"] <- ifelse(context_name1 != "Empty", global_data_2[i,context_name1], NA);
-    xapi_data[i,"context_id2"] <- ifelse(context_id2 != "Empty", global_data_2[i,context_id2], NA);
-    xapi_data[i,"context_name2"] <- ifelse(context_name2 != "Empty", global_data_2[i,context_name2], NA);
-    xapi_data[i,"timestamp"] <- ifelse(timestamp != "Empty", lapply(global_data_2[i,timestamp],parsedate::parse_date), NA);
-    }
     xapi_parsed <- xapi_data 
     
     
@@ -193,7 +196,7 @@ server <- function(input, output, session) {  # Include session argument here
     output$additional_operations_output2 <- renderDT(jsonified, options = list(
       pageLength = 5, scrollX = TRUE
     ))  
-    
+    })
   })
   observeEvent(input$pivot_button, {
     req(input$file, input$columns)

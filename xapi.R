@@ -17,12 +17,12 @@ getActor <- function(name = NA, email = NA) {
 }
 
 getVerb <- function(id,name="unknown") {
-  verb2 = ifelse(is.na(id)| is.null(id),paste0("https://https://iledaueflrs.es/xapi/object/",slugify(name)),id)
+  verb2 = ifelse(is.na(id)| is.null(id),paste0("https://iledaueflrs.es/xapi/object/",slugify(name)),id)
   list(id = verb2, display = list(en = name))
 }
 
 getObject <- function(objectId = NA,objectName = "Unknown") {
-  objectId2 = ifelse(is.na(objectId)| is.null(objectId),paste0("https://https://iledaueflrs.es/xapi/object/",slugify(objectName)),objectId)
+  objectId2 = ifelse(is.na(objectId)| is.null(objectId),paste0("https://iledaueflrs.es/xapi/object/",slugify(objectName)),objectId)
   list(id=objectId2, objectType = "Activity", definition=list(name=list(en = objectName)))
 }
 
@@ -41,8 +41,8 @@ getResult <- function(completion = NA, success = NA, response = NA, scaled = NA,
 }
 
 getContext <- function (contextid1= NA, contextid2= NA, contextname1="Unknown", contextname2="Unknown"){
-  contextid1a = ifelse(is.na(contextid1) | is.null(contextid1),paste0("https://https://iledaueflrs.es/xapi/object/",slugify(contextname1)),contextid1)
-  contextid2a = ifelse(is.na(contextid2) | is.null(contextid2),paste0("https://https://iledaueflrs.es/xapi/object/",slugify(contextname2)),contextid2)
+  contextid1a = ifelse(is.na(contextid1) | is.null(contextid1),paste0("https://iledaueflrs.es/xapi/object/",slugify(contextname1)),contextid1)
+  contextid2a = ifelse(is.na(contextid2) | is.null(contextid2),paste0("https://iledaueflrs.es/xapi/object/",slugify(contextname2)),contextid2)
   list(contextActivities = list(parent = list(id = contextid1a, definition = list(name = list( en = contextname1))), 
                                 grouping = list(id = contextid2a, definition = list(name = list( en  = contextname2)))))
 }
