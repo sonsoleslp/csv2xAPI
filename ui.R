@@ -30,6 +30,9 @@ updateAllDrops <- function(global_data, session){
 ui <- fluidPage(
   tags$head(
     # Note the wrapping of the string in HTML()
+    tags$head(tags$title("csv2xapi")),
+    tags$head(tags$link(rel="icon", href="favicon.png")),
+    tags$head(tags$link(rel="shortcut icon", href="favicon.png")),
     tags$script("
       
     "),
@@ -62,11 +65,9 @@ ui <- fluidPage(
     tabPanel("Import data",
              sidebarLayout(
                sidebarPanel( 
-                            fileInput("file", "Choose CSV File",
-                                      accept = c(".csv",".xlsx",".xls",".tsv",".RDS",".sav",".psv",".feather",".parquet")),
+                            fileInput("file", "Choose CSV File", accept = c(".csv",".xlsx",".xls",".tsv",".RDS",".sav",".psv",".feather",".parquet")),
                             bsButton("select_all_button", "Select All", style = "primary"),
-                            checkboxGroupInput("columns", "Select Columns to Transform:",
-                                               choices = NULL),
+                            checkboxGroupInput("columns", "Select Columns to Transform:", choices = NULL),
                             textInput("name_column", "Name column:", value = "Variable"),
                             textInput("value_column", "Value column:", value = "Value"),
                             downloadLink("downloadData", "Download", class="btn btn-warning"),
@@ -90,6 +91,8 @@ ui <- fluidPage(
                             bsCollapsePanel("Verb", 
                                             selectInput(inputId = "verb_id", label = "Verb id", choices =  list("Empty"), selected = "Empty"),
                                             selectInput(inputId = "verb_display", label = "Verb name", choices =  list("Empty"), selected = "Empty"),
+                                            HTML("<p>For more information about available verbs check the 
+                                                 <a target='_blank' href='https://registry.tincanapi.com/#home/verbs'>xAPI documentation</a></p>"),
                                             style = "info"),
                             bsCollapsePanel("Object",  
                                             selectInput(inputId = "activity_name", label = "Object name", choices =  list("Empty"), selected = "Empty"),
