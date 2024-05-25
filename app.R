@@ -112,11 +112,11 @@ server <- function(input, output, session) {  # Include session argument here
             outputs <- c(paste0("Batch ", j, ": "), content(resultfromlrs),  outputs)
             output$sent <- renderText("Something went wrong")
             output$GETresponse <- renderPrint(outputs)
-            error(loggerDebug, resultfromlrs)
+            # error(loggerDebug, resultfromlrs)
             
           } else {
             output$sent <- renderText(paste0("Sent ", nrow(jsonified_all), " statements in ", pages," batches successfully"))
-            info(loggerDebug, "SENT OK")
+            # info(loggerDebug, "SENT OK")
             
           }
          
